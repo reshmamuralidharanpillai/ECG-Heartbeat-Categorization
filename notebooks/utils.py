@@ -41,7 +41,7 @@ def preprocess(X_train,y_train,X_test):
 
     counter = Counter(y_train_processed)
     print(counter)
-
+    print('\n')
 #####################################################################################
 
     # Create an instance of StandardScaler
@@ -62,6 +62,7 @@ def preprocess(X_train,y_train,X_test):
         print("The features have zero mean and unit variance.")
     else:
         print("The features do not have zero mean and unit variance.")
+    print('\n')
 
 #####################################################################################
 
@@ -73,13 +74,16 @@ def preprocess(X_train,y_train,X_test):
     # Explained variance ratio
     explained_variance_ratio = pca.explained_variance_ratio_
     print("Explained variance ratio:", explained_variance_ratio)
+    print('\n')
 
     # Access the principal components
     principal_components = pca.components_
     print("Principal components:", principal_components)
+    print('\n')
 
     # Access the transformed data
     print("Transformed data shape:", X_train_processed.shape)
+    print('\n')
 
     cumulative_variance_ratio = np.cumsum(explained_variance_ratio)
     print(cumulative_variance_ratio)
