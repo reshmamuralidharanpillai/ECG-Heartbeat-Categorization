@@ -4,7 +4,7 @@ Deploying a machine learning model in a real-world scenario involves several con
 
 * **Scalability and Performance:** Considering the expected workload one can choose a deployment strategy that can handle the anticipated traffic and ensure low-latency predictions. Scaling options may include deploying the model on cloud-based services like AWS, Google Cloud, or Azure which enables auto-scaling, load balancing. We can also utilize containerization technologies like Docker and Kubernetes.
 
-  *Risk:* Scaling issues that result in decreased performance or higher expenses.--
+  *Risk:* Scaling issues that result in decreased performance or higher expenses.<br />
   *Mitigation:* To ensure scalability and cost-effectiveness, undertake load testing, set up the proper scaling triggers and thresholds, and continuously monitor             system metrics.
 
 * **Model Versioning and Management:** Create a system to control various model versions, allowing for simple model modifications and rollback options as needed. This guarantees smooth updating and prevents interruptions in the working environment. For example - Git
