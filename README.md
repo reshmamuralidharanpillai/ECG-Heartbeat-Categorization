@@ -45,6 +45,6 @@ conda activate HeartbeatCategorization
 
 #### Step 4: Run the Model ####
 ```sh
-
-
+jupyter notebook cnn_model.ipynb
+```
 
