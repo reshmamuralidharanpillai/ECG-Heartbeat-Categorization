@@ -1,4 +1,4 @@
-name: env
+name: HeartbeatCategorization
 channels:
   - defaults
 dependencies:
