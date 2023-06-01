@@ -23,3 +23,28 @@ Class	Heart condition
 CNN model has been trained using Tensorflow Framework to classify the heartbest signals into one of the above 5 different categories.
 
 
+### Prerequisites: ###
+####
+- conda
+- python3
+####
+#### Step 1: Clone Repository ####
+```sh
+git clone https://github.com/reshmamuralidharanpillai/ECG-Heartbeat-Categorization.git
+```
+
+#### Step 2: Create conda environment ####
+```sh
+conda env create --file environment.yml
+```
+
+#### Step 3: Activate environment ####
+```sh
+conda activate HeartbeatCategorization
+```
+
+#### Step 4: Run the Model ####
+```sh
+
+
+
